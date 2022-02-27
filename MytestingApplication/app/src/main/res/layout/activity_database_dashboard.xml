@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".DatabaseDashboard">
+
+    <ImageButton
+        android:id="@+id/imageButtonRepairDetails"
+        android:layout_width="316dp"
+        android:layout_height="370dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="@color/black"
+        android:onClick="repairDetailsButtonClick"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        app:srcCompat="@drawable/repair_details" />
+
+    <ImageButton
+        android:id="@+id/imageButtonServiceDetails"
+        android:layout_width="316dp"
+        android:layout_height="370dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="@color/black"
+        android:onClick="serviceDetailsButtonClick"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        app:srcCompat="@drawable/service_details" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="158dp"
+        android:layout_height="177dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="@color/black"
+        android:onClick="homeButtonClickFromDatabaseDashboard"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.001"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/home_icon_small" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="235dp"
+        android:layout_height="203dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.994"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo_new" />
+</androidx.constraintlayout.widget.ConstraintLayout>

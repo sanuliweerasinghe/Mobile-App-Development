@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ServiceDetails">
+
+    <Button
+        android:id="@+id/buttonViewRepairDetails2"
+        android:layout_width="579dp"
+        android:layout_height="78dp"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="casual"
+        android:text="View All Service Details"
+        android:textSize="35sp"
+        android:onClick="viewButtonClickOfServiceDetails"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.993" />
+
+    <Button
+        android:id="@+id/buttonSearchRepairs2"
+        android:layout_width="256dp"
+        android:layout_height="91dp"
+        android:layout_marginEnd="248dp"
+        android:backgroundTint="#267DB6"
+        android:fontFamily="casual"
+        android:text="Search"
+        android:onClick="searchButtonClickOfServiceDetails"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/editTextSearchBoxForServices"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <EditText
+        android:id="@+id/editTextSearchBoxForServices"
+        android:layout_width="543dp"
+        android:layout_height="74dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="   Search by Vehicle No..."
+        android:inputType="textPersonName"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="128dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="@color/black"
+        android:onClick="homeButtonClickFromServiceDetails"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home_icon_small" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="192dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_new" />
+
+    <ScrollView
+        android:layout_width="1109dp"
+        android:layout_height="664dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644">
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalView"
+            android:layout_width="1105dp"
+            android:layout_height="664dp"
+            android:background="@color/white"
+            android:scrollbars="horizontal|vertical"
+            tools:layout_editor_absoluteX="75dp"
+            tools:layout_editor_absoluteY="184dp">
+
+            <TableLayout
+                android:id="@+id/tableLayoutServiceTable"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="0dp"
+                android:stretchColumns="*">
+                android:background="@color/white"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="203dp">
+
+            </TableLayout>
+
+        </HorizontalScrollView>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

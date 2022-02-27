@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mytestingapplication">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyTestingApplication">
+        <activity
+            android:name=".recyclerviewForReminders"
+            android:exported="false" />
+        <activity
+            android:name=".ReminderDetails"
+            android:exported="false" />
+        <activity
+            android:name=".AddReminder"
+            android:exported="false" />
+        <activity
+            android:name=".RepairDetails"
+            android:exported="false" />
+        <activity
+            android:name=".ServiceDetails"
+            android:exported="false" />
+        <activity
+            android:name=".StockDetails"
+            android:exported="false" />
+        <activity
+            android:name=".RemoveStock"
+            android:exported="false" />
+        <activity
+            android:name=".AddStock"
+            android:exported="false" />
+        <activity
+            android:name=".DatabaseDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".StockDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".RepairForm"
+            android:exported="false" />
+        <activity
+            android:name=".ServiceForm"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".SignIn"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

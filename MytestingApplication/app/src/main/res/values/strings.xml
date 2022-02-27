@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My testing Application</string>
+    <string name="owner_s_name">Owner\'s Name</string>
+
+    // spare part list for spinner (drop down) provided to select the spare part
+    <string-array name="part_list">
+        <item>Air Filters</item>
+        <item>Brake Disks</item>
+        <item>Fuel Caps</item>
+        <item>Oil Filters</item>
+        <item>Spark Plugs</item>
+        <item>Shock Absorbers</item>
+        <item>Wheel Bearings</item>
+    </string-array>
+
+</resources>
