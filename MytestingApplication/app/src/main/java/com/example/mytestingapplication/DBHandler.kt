@@ -8,6 +8,62 @@ import android.content.ContentValues
 import android.database.Cursor
 
 class DBHandler(context: Context?) : SQLiteOpenHelper(context, DB_NAME, null, DB_VERSION) {
+
+    companion object {
+        // creating a constant variables for our database below variable is for our database name.
+        private const val DB_NAME = "ServiceStationDB"
+
+        // below int is our database version
+        private const val DB_VERSION = 1
+
+        // variables for ServiceTable.
+        private const val TABLE_NAME1 = "ServiceTable"
+        private const val ID_COL1 = "ServiceID"
+        private const val Date1 = "Date"
+        private const val Name1 = "OwnerName"
+        private const val No1 = "VehicleNo"
+        private const val Brand1 = "VehicleBrand"
+        private const val Service1 = "ElectricalSystem"
+        private const val Service2 = "AC"
+        private const val Service3 = "Suspension"
+        private const val Service4 = "OilFiltre"
+        private const val Service5 = "Radiator"
+        private const val Service6 = "WheelBearing"
+
+        // variables for RepairTable
+        private const val TABLE_NAME2 = "RepairTable"
+        private const val ID_COL2 = "RepairID"
+        private const val Date2 = "Date"
+        private const val Name2 = "OwnerName"
+        private const val No2 = "VehicleNo"
+        private const val Brand2 = "VehicleBrand"
+        private const val Repair1 = "IgnitionSystem"
+        private const val Repair2 = "Tyre"
+        private const val Repair3 = "SparkPlug"
+        private const val Repair4 = "Brakes"
+        private const val Repair5 = "BodyPainting"
+        private const val Repair6 = "Light"
+
+        // variables for StockTable
+        private const val TABLE_NAME3 = "StockTable"
+        private const val COL1 = "PartID"
+        private const val COL2 = "PartName"
+        private const val COL3 = "AvailableNo"
+
+        // variables for ReminderTable
+        private const val TABLE_NAME4 = "ReminderTable"
+        private const val TITLE = "Title"
+        private const val DATE = "ReminderDate"
+        private const val PART_NAME = "PartName"
+        private const val AMOUNT = "PartAmount"
+    }
+
+    // creating a constructor for our database handler.
+    init {
+        // in order to create the database and the tables when run for the first time.
+        val db = this.writableDatabase
+    }
+
     // below method is for creating a database by running a sqlite query
     override fun onCreate(db: SQLiteDatabase) {
         // creating an sqlite query for ServiceTable by setting our column name along with their data types.
@@ -270,58 +326,5 @@ class DBHandler(context: Context?) : SQLiteOpenHelper(context, DB_NAME, null, DB
         onCreate(db)
     }
 
-    companion object {
-        // creating a constant variables for our database below variable is for our database name.
-        private const val DB_NAME = "ServiceStationDB"
 
-        // below int is our database version
-        private const val DB_VERSION = 1
-
-        // variables for ServiceTable.
-        private const val TABLE_NAME1 = "ServiceTable"
-        private const val ID_COL1 = "ServiceID"
-        private const val Date1 = "Date"
-        private const val Name1 = "Ownername"
-        private const val No1 = "VehicleNo"
-        private const val Brand1 = "VehicleBrand"
-        private const val Service1 = "ElectricalSystem"
-        private const val Service2 = "AC"
-        private const val Service3 = "Suspension"
-        private const val Service4 = "OilFiltre"
-        private const val Service5 = "Radiator"
-        private const val Service6 = "WheelBearing"
-
-        // variables for RepairTable
-        private const val TABLE_NAME2 = "RepairTable"
-        private const val ID_COL2 = "RepairID"
-        private const val Date2 = "Date"
-        private const val Name2 = "OwnerName"
-        private const val No2 = "VehicleNo"
-        private const val Brand2 = "VehicleBrand"
-        private const val Repair1 = "IgnitionSystem"
-        private const val Repair2 = "Tyre"
-        private const val Repair3 = "SparkPlug"
-        private const val Repair4 = "Brakes"
-        private const val Repair5 = "BodyPainting"
-        private const val Repair6 = "Light"
-
-        // variables for StockTable
-        private const val TABLE_NAME3 = "StockTable"
-        private const val COL1 = "PartID"
-        private const val COL2 = "PartName"
-        private const val COL3 = "AvailableNo"
-
-        // variables for ReminderTable
-        private const val TABLE_NAME4 = "ReminderTable"
-        private const val TITLE = "Title"
-        private const val DATE = "ReminderDate"
-        private const val PART_NAME = "PartName"
-        private const val AMOUNT = "PartAmount"
-    }
-
-    // creating a constructor for our database handler.
-    init {
-        // in order to create the database and the tables when run for the first time.
-        val db = this.writableDatabase
-    }
 }

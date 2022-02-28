@@ -14,4 +14,7 @@ class RemoveStock : AppCompatActivity() {
         val dynamicTitle = "Remove Stock"
         actionBar!!.title = dynamicTitle
     }
+    fun homeButtonClickFromRemoveStock(v: View?) {
+        startActivity(Intent(this@RemoveStock, Home::class.java))
+    }
 }

@@ -7,6 +7,22 @@
     android:background="@drawable/background"
     tools:context=".ServiceForm">
 
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="395dp"
+        android:layout_height="93dp"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="casual"
+        android:onClick="serviceFormButtonClick"
+        android:text=" Enter Record "
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
     <View
         android:id="@+id/view"
         android:layout_width="1084dp"
@@ -250,16 +266,17 @@
         android:id="@+id/textViewFieldsErrorService"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="164dp"
         android:textColor="#F44336"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.582"
+        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.198"
-        tools:text="Please Enter All Fields!!!"
-        tools:ignore="UnknownId" />
+        tools:ignore="UnknownId"
+        tools:text="Please Enter All Fields!!!" />
 
     <TextView
         android:id="@+id/textViewChecklistErrorService"

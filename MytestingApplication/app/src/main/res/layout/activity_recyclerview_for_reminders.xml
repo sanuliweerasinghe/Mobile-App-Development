@@ -65,6 +65,7 @@
         android:layout_width="304dp"
         android:layout_height="73dp"
         android:text="Delete"
+        android:backgroundTint="#6525B5"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

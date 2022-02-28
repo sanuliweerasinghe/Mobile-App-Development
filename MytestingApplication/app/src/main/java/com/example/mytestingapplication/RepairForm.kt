@@ -18,7 +18,7 @@ class RepairForm : AppCompatActivity() {
         actionBar!!.title = dynamicTitle
     }
 
-    fun serviceFormButtonClick(v: View?) {
+    fun repairFormButtonClick(v: View?) {
         val editTextOwnerName =
             findViewById<EditText>(R.id.editTextOwnerNameRepair) // get owner name
         val ownerName = editTextOwnerName.text.toString()

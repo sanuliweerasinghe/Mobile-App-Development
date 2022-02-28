@@ -3,6 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HP/Desktop/sanu/Mobile App Development/kotlin converted project/Git repo/alert box code.txt/MytestingApplication/app/src/main/res/layout/activity_add_reminder.xml" value="0.153125" />
+        <entry key="..\:/Users/HP/Desktop/sanu/Mobile App Development/kotlin converted project/Git repo/alert box code.txt/MytestingApplication/app/src/main/res/layout/activity_add_stock.xml" value="0.153125" />
+        <entry key="..\:/Users/HP/Desktop/sanu/Mobile App Development/kotlin converted project/Git repo/alert box code.txt/MytestingApplication/app/src/main/res/layout/activity_database_dashboard.xml" value="0.153125" />
+        <entry key="..\:/Users/HP/Desktop/sanu/Mobile App Development/kotlin converted project/Git repo/alert box code.txt/MytestingApplication/app/src/main/res/layout/activity_home.xml" value="0.153125" />
+        <entry key="..\:/Users/HP/Desktop/sanu/Mobile App Development/kotlin converted project/Git repo/alert box code.txt/MytestingApplication/app/src/main/res/layout/activity_main.xml" value="0.153125" />
+        <entry key="..\:/Users/HP/Desktop/sanu/Mobile App Development/kotlin converted project/Git repo/alert box code.txt/MytestingApplication/app/src/main/res/layout/activity_recyclerview_for_reminders.xml" value="0.153125" />
+        <entry key="..\:/Users/HP/Desktop/sanu/Mobile App Development/kotlin converted project/Git repo/alert box code.txt/MytestingApplication/app/src/main/res/layout/activity_reminder_details.xml" value="0.153125" />
+        <entry key="..\:/Users/HP/Desktop/sanu/Mobile App Development/kotlin converted project/Git repo/alert box code.txt/MytestingApplication/app/src/main/res/layout/activity_remove_stock.xml" value="0.153125" />
+        <entry key="..\:/Users/HP/Desktop/sanu/Mobile App Development/kotlin converted project/Git repo/alert box code.txt/MytestingApplication/app/src/main/res/layout/activity_repair_details.xml" value="0.153125" />
+        <entry key="..\:/Users/HP/Desktop/sanu/Mobile App Development/kotlin converted project/Git repo/alert box code.txt/MytestingApplication/app/src/main/res/layout/activity_repair_form.xml" value="0.153125" />
+        <entry key="..\:/Users/HP/Desktop/sanu/Mobile App Development/kotlin converted project/Git repo/alert box code.txt/MytestingApplication/app/src/main/res/layout/activity_service_details.xml" value="0.153125" />
+        <entry key="..\:/Users/HP/Desktop/sanu/Mobile App Development/kotlin converted project/Git repo/alert box code.txt/MytestingApplication/app/src/main/res/layout/activity_service_form.xml" value="0.153125" />
+        <entry key="..\:/Users/HP/Desktop/sanu/Mobile App Development/kotlin converted project/Git repo/alert box code.txt/MytestingApplication/app/src/main/res/layout/activity_sign_in.xml" value="0.153125" />
+        <entry key="..\:/Users/HP/Desktop/sanu/Mobile App Development/kotlin converted project/Git repo/alert box code.txt/MytestingApplication/app/src/main/res/layout/activity_stock_dashboard.xml" value="0.153125" />
+        <entry key="..\:/Users/HP/Desktop/sanu/Mobile App Development/kotlin converted project/Git repo/alert box code.txt/MytestingApplication/app/src/main/res/layout/activity_stock_details.xml" value="0.153125" />
         <entry key="..\:/Users/HP/Desktop/sanu/Mobile App Development/kotlin converted project/Mobile app project/MytestingApplication/app/src/main/res/layout/activity_add_reminder.xml" value="0.15" />
         <entry key="..\:/Users/HP/Desktop/sanu/Mobile App Development/kotlin converted project/Mobile app project/MytestingApplication/app/src/main/res/layout/activity_sign_in.xml" value="0.15" />
         <entry key="app/src/main/res/layout/activity_repair_details.xml" value="0.11322463768115942" />

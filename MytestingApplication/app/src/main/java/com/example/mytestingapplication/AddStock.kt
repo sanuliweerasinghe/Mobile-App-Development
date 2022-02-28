@@ -22,4 +22,7 @@ class AddStock : AppCompatActivity() {
         val dynamicTitle = "Add Stock"
         actionBar!!.title = dynamicTitle
     }
+    fun homeButtonClickFromAddStock(v: View?) {
+        startActivity(Intent(this@AddStock, Home::class.java))
+    }
 }
